@@ -23,13 +23,20 @@
 			<scope>provided</scope>
 		</dependency>
 
+		<!-- Link backend project -->
+		<dependency>
+			<groupId>com.nw</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>
